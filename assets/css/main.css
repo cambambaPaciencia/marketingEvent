@@ -48,6 +48,10 @@ a:hover {
   text-decoration: none;
 }
 
+ul{
+  list-style: none;
+}
+
 h1,
 h2,
 h3,
@@ -218,7 +222,7 @@ section {
 }
 
 .scroll-top:hover {
-  background: rgba(13, 66, 255, 0.8);
+  background: #f22023;
   color: #fff;
 }
 
@@ -389,7 +393,7 @@ section {
   .navbar .get-a-quote:hover,
   .navbar .get-a-quote:focus:hover {
     color: #fff;
-    background: #2756ff;
+    background: #f22023;
   }
 
   .navbar .dropdown ul {
@@ -2009,6 +2013,12 @@ section {
 
 #partner img:hover{
   scale: 1.1;
+}
+
+.price-description{
+  width: 800px;
+  margin: 0 auto 2rem;
+  text-align: center;
 }
 
 ::-webkit-scrollbar{
