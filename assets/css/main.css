@@ -117,6 +117,7 @@ section {
   z-index: 2;
 }
 
+
 @media (max-width: 640px) {
   .section-header h2 {
     font-size: 28px;
@@ -1909,8 +1910,8 @@ section {
 }
 
 .footer .social-links a:hover {
-  color: #fff;
-  border-color: #fff;
+  color: #f8c400;
+  border-color: #f8c400;
 }
 
 .footer h4 {
@@ -1962,6 +1963,24 @@ section {
   line-height: 26px;
 }
 
+.footer .footer-contact-info{
+  display: flex;
+}
+
+.footer .footer-contact-info p strong{
+  padding: 10px;
+}
+
+.footer .footer-contact-info a{
+  color: #fff;
+  transition: all .4s ease;
+}
+
+
+.footer .footer-contact-info a:hover{
+  color:#f8c400;
+}
+
 .footer .copyright {
   text-align: center;
 }
@@ -1976,15 +1995,20 @@ section {
   color: #fff;
 }
 
+#partner{
+  width: 80%;
+  margin-inline: auto;
+}
 #partner img{
-  width: 200px;
-  height: 80px;
+  text-align: center;
+  width: 250px;
+  height: 100px;
   filter: grayscale(1);
-  transition: all .4s ease;
+  transition: all .5s ease;
 }
 
 #partner img:hover{
-  filter: grayscale(0);
+  scale: 1.1;
 }
 
 ::-webkit-scrollbar{
