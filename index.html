@@ -48,13 +48,13 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a href="index.html" class="active">Inicio</a></li>
-          <li><a href="#partner">Parceiros</a></li>
+          <li><a href="#partner">Realização</a></li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Contacto
             </a>
             <ul class="dropdown-menu text-white text-center">
-              <li><span class="dropdown-item"><small>CONTACTE-NOS</small></span></li>
+              <li><span class="dropdown-item"><small id="txt">CONTACTE-NOS</small></span></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
@@ -80,7 +80,7 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="hero d-flex align-items-center">
 
-    <div class="container">
+    <div class="container" style="display: none;">
       <div class="row gy-4 d-flex justify-content-between">
         <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
           <h3 data-aos="fade-up">1º ENCONTRO NACIONAL DE</h3>
@@ -90,6 +90,7 @@
             imperdível para aprender, conectar-se e elevar sua marca no cenário mercadológico do país."</p>
         </div>
       </div>
+    </div>  
 
   </section><!-- End Hero Section -->
 
@@ -98,35 +99,27 @@
     <!-- ======= About Us Section ======= -->
     <section id="about" class="about pt-0" style="margin: 5rem auto 0;">
       <div class="container" data-aos="fade-up">
-
+          
         <div class="row gy-4">
-          <div class="col-lg-6 position-relative align-self-start order-lg-last order-first">
+          <div class="col-lg-6 position-relative align-self-start order-lg-last order-first about_video">
+            
             <!-- <img src="assets/img/about-img-2.jpg" class="img-fluid" alt=""> -->
-            <video controls autoplay muted class="img-fluid" style="width: 100%;">
+            <video  controls autoplay muted loop class="img-fluid" style="width: 100%;">
               <source src="./assets/img/about_video.webm" type="video/mp4">
             </video>
 
           </div>
           <div class="col-lg-6 content order-last  order-lg-first">
             <h3>Sobre</h3>
-            <p style="font-weight: 500;">
-              O Marketing Digital tornou-se uma das principais ferramentas das instituições para a construção de uma
-              marca forte, melhoria do relacionamento com clientes, engajamento dos consumidores, criação de
-              alternativas de receita e aumento das vendas. É o garantidor de que as marcas sejam visíveis aos
-              consumidores online.
+            <p>
+              Explore o inaugural Encontro Nacional de Marketing Digital em Angola, uma experiência revolucionária que desvendará os segredos do Marketing Digital no cenário angolano. Este evento pioneiro, organizado pela <strong>ISENTA</strong> e <strong>MARWANDI</strong>, é a chave para desbravar práticas inovadoras, discutir os desafios específicos e impulsionar estratégias eficazes no coração de Luanda, no HCTA, em 27 de abril de 2024.
             </p>
-            <ul>
-              <li><i class="bi bi-check"></i> Aprofundar-se nas nuances culturais, econômicas e sociais de Angola é
-                primordial para direcionar estratégias de marketing eficazes.</li>
-              <li><i class="bi bi-check"></i> Abordagem multicanal: é crucial equilibrar a presença em canais online,
-                mídias sociais e meios tradicionais, dada a diversidade de acesso à internet e meios de comunicação.
-              </li>
-              <li><i class="bi bi-check"></i> Construção de relacionamentos sólidos: investir em conexões genuínas com
-                clientes, parceiros e comunidades locais é fundamental para estabelecer confiança e lealdade à marca em
-                Angola.
-              </li>
-            </ul>
-
+            <p>
+              Junte-se a nós para mergulhar nas nuances culturais, econômicas e sociais de Angola, estabelecendo uma base sólida para direcionar estratégias de marketing imbatíveis. Com uma abordagem multicanal, exploraremos a importância de equilibrar presença online, nas redes sociais e nos meios tradicionais, adaptando-se à diversidade de acesso à internet e meios de comunicação no país.
+            </p>
+            <p>
+              Prepare-se para uma jornada onde a construção de relacionamentos sólidos é a peça-chave. Descubra como investir em conexões autênticas com clientes, parceiros e comunidades locais é fundamental para estabelecer confiança e lealdade à sua marca em Angola. Esta é a oportunidade de inaugurar uma nova era no marketing digital angolano - não fique de fora! 
+            </p>
           </div>
         </div>
 
@@ -144,13 +137,7 @@
           <div class="col-md-6 order-2 order-md-1">
             <h3>O que esperar da Conferência de Marketing Digital 2024</h3>
             <p>
-              Com o objetivo de analisar o Marketing Digital em Angola, promover as melhores práticas a fim de garantir
-              a visibilidade, autonomia e flexibilidade das organizações em Angola, preparar tópicos e alterações no
-              paradigma actual, a <strong>ISENTA</strong>, agencia de Comunicação e Imagem e a
-              <strong>MARWANDI</strong>, Consultoria em Comunicação e Marketing, realizam o <strong>1° Encontro Nacional
-                de Marketing Digital Angola</strong>, no dia 27 de abril de 2024, no Hotel Intercontinental Miramar, em
-              Luanda. O que certamente contará com a presença de oradores nacionais e internacionais, análises práticas,
-              vários debates sob o tema Central “Os Desafios do Marketing Digital em Angola”.
+              Descubra o futuro do Marketing Digital em Angola no aguardado <strong>1° Encontro Nacional de Marketing Digital Angola 2024</strong>! Junte-se à ISENTA COMUNICAÇÃO e à MARWANDI para explorar práticas inovadoras, discutir desafios e transformar o cenário do marketing no 1° Encontro Nacional de Marketing Digital. Este evento, repleto de oradores renomados, análises práticas e debates, acontecerá no luxuoso HCTA, em Luanda, em 27 de abril de 2024. Não perca a oportunidade de estar à frente das tendências e impulsionar a visibilidade e flexibilidade das organizações em Angola e uma oportunidade de conexão e fazer história!
             </p>
           </div>
         </div><!-- Features Item -->
@@ -173,7 +160,17 @@
 
           <div class="col-lg-3 col-md-6 d-flex">
             <div class="member">
-              <img src="assets/img/orator/carolina_lopes.jpg" class="img-fluid" alt="">
+              <img src="assets/img/orator/mell_chaves.jpg" class="img-fluid" alt="">
+              <div class="member-content">
+                <h4>Mell Chaves</h4>
+                <span>Apresentadora de TV & Consultora de Imagem e Comunicação</span>
+              </div>
+            </div>
+          </div><!-- End Orator Member -->
+
+          <div class="col-lg-3 col-md-6 d-flex">
+            <div class="member">
+              <img src="assets/img/orator/carolina_lopes.jpg" class="img-fluid" alt="" style="object-fit: fill;">
               <div class="member-content">
                 <h4>Carolina Lopes</h4>
                 <span>Parceira & CEO da Authentic</span>
@@ -231,9 +228,57 @@
             </div>
           </div><!-- End Orator Member -->
 
+          <div class="col-lg-3 col-md-6 d-flex">
+            <div class="member">
+              <img src="assets/img/orator/monica_almeida.jpg" class="img-fluid" alt="">
+              <div class="member-content">
+                <h4>Mónica Almeida</h4>
+                <span>Responsável de Marketing da TIS</span>
+              </div>
+            </div>
+          </div><!-- End Orator Member -->
+
+          <div class="col-lg-3 col-md-6 d-flex">
+            <div class="member">
+              <img src="assets/img/orator/janaina_carneiro.jpg" class="img-fluid" alt="">
+              <div class="member-content">
+                <h4>Janaina Carneiro</h4>
+                <span>Regional Lead na Simply Black Media</span>
+              </div>
+            </div>
+          </div><!-- End Orator Member -->
+
+          <div class="col-lg-3 col-md-6 d-flex">
+            <div class="member">
+              <img src="assets/img/orator/fahen_carvalho.jpg" class="img-fluid" alt="">
+              <div class="member-content">
+                <h4>Fahen Carvalho</h4>
+                <span>Jornalista & Estrategista de Conteúdo</span>
+              </div>
+            </div>
+          </div><!-- End Orator Member -->
+
+          <div class="col-lg-3 col-md-6 d-flex">
+            <div class="member">
+              <img src="assets/img/orator/susana_cardoso_novo.jpg" class="img-fluid" alt="">
+              <div class="member-content">
+                <h4>Susana Cardoso</h4>
+                <span>Especialista em Gestão de Reputação</span>
+              </div>
+            </div>
+          </div><!-- End Orator Member -->
+
+          <div class="col-lg-3 col-md-6 d-flex">
+            <div class="member">
+              <img src="assets/img/orator/eva_rosa_santos.jpg" class="img-fluid" alt="">
+              <div class="member-content">
+                <h4>Eva Rosa Santos</h4>
+                <span>Fundadora da Liderança Femenina em Angola</span>
+              </div>
+            </div>
+          </div><!-- End Orator Member -->
 
         </div>
-
       </div>
     </section><!-- End Orator Section -->
 
@@ -397,8 +442,8 @@
       <div class="container text-center" data-aos="fade-up">
 
         <div class=" section-header">
-          <span>Parceiros</span>
-          <h2>Parceiros</h2>
+          <span>Realização</span>
+          <h2>Realização</h2>
         </div>
 
         <div class="row gy-4 d-flex align-items-center justify-content-center" style="margin-inline: auto;">
